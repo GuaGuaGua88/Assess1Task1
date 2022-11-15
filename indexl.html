@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Web Form" content="html css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 
+      Web Form
+    </title>
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
+
+  <body>
+    
+    <h1>Product enquiry form</h1>
+    <form action="#">
+      <div class="form-content">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fname" value="">
+      </div>
+
+      <div class="form-content">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" value="">
+      </div>
+      
+      <div class="selection">
+        <label for="product">Product</label>
+          <select id="product" name="product">
+            <option value="select">Select</option>
+            <option value="Orange Juice">Orange Juice</option>
+            <option value="Apple Juice">Apple Juice</option>
+            <option value="Tropical Juice">Tropical Juice</option>
+          </select>
+      </div>
+
+      <div class="message">
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+
+      <div class="subs">
+        <input type="checkbox" id="subscription" name="subscription" value="subscription">
+        <label for="subscription">Subscribe to our newsletter</label>
+      </div>
+
+      <div>
+        <input class= "Submit" type="submit" value="submit">
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+body {
+  font-family: Verdana, sans-serif;
+  font-size:14px;
+  color:black;
+  margin: 30px;
+  padding:20px;
+  background-color:azure;
+}
+
+form{
+  width:60%;
+  margin:30px;
+  padding:20px;
+}
+
+div{
+  margin:20px}
+
+h1{
+  font-size:18px;
+  margin-left:70px;
+}
+
+input[type=text]{
+  background-color: antiquewhite;
+  width:90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 5px;  
+}
+
+input:focus{
+  background-color:rgb(219, 235, 240);
+}
+
+label { 
+  display: block;
+}
+
+select{
+  padding: 12px 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 5px;  
+  display:block;
+  Width: 90%;
+  background-color: antiquewhite;
+}
+
+textarea{
+ width:89%;
+ height: 100px;
+}
+
+.subs label{
+ display:inline;
+}
+
+.Submit{
+  margin-top:50px;
+  width: 40%;
+  height: 40px;
+  background-color: beige;
+}
+
+.Submit:hover{
+  background-color: rgb(219, 156, 156);
+}
